@@ -1,7 +1,7 @@
 # Lab tools — build brief
 
 Three browser-only analyst tools to sit under `chandra-deve.github.io/lab/`, each proving a
-specific claim already on Devalla Jaya Chandra's résumé. **Not yet built** — this file is the
+specific claim already on Devalla Jaya Chandra's résumé (Senior Project Manager | Enterprise Technology & AI Programs, updated Sept 2026). **Not yet built** — this file is the
 complete spec so a fresh Claude Code session can build them without re-deriving anything.
 
 Run Claude Code from the repo root (`chandra-deve.github.io/`) and paste:
@@ -17,9 +17,9 @@ Run Claude Code from the repo root (`chandra-deve.github.io/`) and paste:
 
 | Tool | Proves the résumé line |
 |---|---|
-| Requirements Quality Analyzer | "Authored BRD, RTM, FSDs, UAT documentation" |
-| Entitlement Rationalization Engine | "375 Citrix groups → 60, 84% reduction" — demonstrates it instead of asserting it |
-| Churn Model Explorer | "Built ML models forecasting churn… integrated into CRM" (T-Mobile) |
+| Requirements Quality Analyzer | "Authored the BRD end to end … built and owned the SOX-auditable RTM of 83 requirements … enforced testable Given/When/Then acceptance criteria" (ITAM ServiceNow Foundations, Genworth) |
+| Entitlement Rationalization Engine | "consolidation of 297 PeopleSoft entitlements into 49 role-based personas across 17 modules" (ITAM ServiceNow Foundations, Genworth) — demonstrates it instead of asserting it |
+| Churn Model Explorer | **No longer backed by a résumé line** — the T-Mobile churn project is not on the current résumé. Replace with a Variance Narrator demo mirroring `variance_narrator.py` (Python + Claude API tool that turns programme and financial variance data into executive commentary), or drop it. |
 
 The point is that each tool encodes work he actually does, so he can explain every design
 decision in an interview. A showcased project he cannot explain is worse than no project.
@@ -76,7 +76,7 @@ reproducible — use `mulberry32`).
    dataset. A blank first screen is a failed build.
 5. **Method & limitations** — 120–200 words, honest: what it does well, where it breaks, what a
    real engagement would add.
-6. Footer: 1px top rule, mono, "Devalla Jaya Chandra — Senior Business Analyst".
+6. Footer: 1px top rule, mono, "Devalla Jaya Chandra — Senior Project Manager".
 
 ### Honesty requirement — non-negotiable
 
@@ -130,7 +130,7 @@ textarea fallback and a visible confirmation state).
 
 ## 2. `entitlement-rationalization/` — the flagship
 
-**Generator** — seeded `mulberry32`, reproducible across reloads. 1,200 users, 375 groups
+**Generator** — seeded `mulberry32`, reproducible across reloads. 1,200 users, 297 groups
 `{name, members:Set, lastUsedDays, app, owner}` containing deliberately: ~40 exact-duplicate
 member sets under different names; ~90 near-duplicates (overlap 0.80–0.98); naming variants of
 one intent built from a token vocabulary (`CTX_FIN_RO` / `CTX-FINANCE-READ` /
@@ -144,7 +144,7 @@ distinct groups that **must survive**.
 - **P2 Stale** — `lastUsedDays >` threshold (slider) **and** member count below a floor.
 - **P3 Exact duplicates** — identical sorted-member-set signature.
 - **P4 Near duplicates** — `Jaccard(A,B) = |A∩B| / |A∪B| >=` threshold (slider). Use an
-  inverted index (user → groups) for candidate generation rather than a blind 375² sweep;
+  inverted index (user → groups) for candidate generation rather than a blind 297² sweep;
   show the candidate-pair count in the UI.
 - **P5 Name-token clustering** — normalise (lowercase, split `[_\-\s.]`, drop stopwords
   `ctx|citrix|grp|group|ad|sg`), merge when token-set Jaccard ≥ 0.75 **AND** member Jaccard ≥ 0.5.
@@ -158,8 +158,8 @@ merging across different owners or apps); two live sliders (Jaccard 0.60–1.00 
 staleness 30–400) that recompute without regenerating the dataset; a **Reviewer queue** toggle
 that excludes HIGH-risk merges from the target state and updates the headline.
 
-Tune the generator so default sliders land near **375 → ~60 (~84%)** as *true arithmetic*.
-**Never print 84 as a constant — always compute it.**
+Tune the generator so default sliders land near **297 → ~49 (~83%)** as *true arithmetic*.
+**Never print 83 as a constant — always compute it.**
 
 ## 3. `churn-explorer/`
 

@@ -4,12 +4,12 @@
 <script>document.documentElement.className+=' js';</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Devalla Jaya Chandra — Senior Business Analyst</title>
-<meta name="description" content="Devalla Jaya Chandra is a senior business analyst working across IT, financial services, insurance and energy utilities. ServiceNow, Azure DevOps, SAP, Power BI and Tableau. Based in Herndon, Virginia.">
-<meta property="og:title" content="Devalla Jaya Chandra — Senior Business Analyst">
-<meta property="og:description" content="Senior business analyst on enterprise ITAM, ServiceNow and cybersecurity programmes at Washington Gas. Previously MetLife, Tata Capital and Vivma Software.">
+<title>Devalla Jaya Chandra — Senior Project Manager</title>
+<meta name="description" content="Devalla Jaya Chandra is a senior project manager delivering enterprise technology and AI programmes across utilities, financial services, insurance and healthcare. ServiceNow, Azure DevOps, AI governance and Claude-based automation. Based in Herndon, Virginia.">
+<meta property="og:title" content="Devalla Jaya Chandra — Senior Project Manager">
+<meta property="og:description" content="Senior project manager leading two concurrent programmes worth $24M at Washington Gas / AltaGas: cybersecurity AI and disaster recovery, after a $1.4M ServiceNow ITAM transformation at Genworth. Previously Optima Financial Services and Virtual Infotech Solution.">
 <meta property="og:type" content="profile">
-<meta property="og:image" content="photo.jpg">
+<meta property="og:image" content="https://chandra-deve.github.io/photo.jpg">
 <meta name="theme-color" content="#fbfaf8">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%236e2434'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='32' font-weight='600' fill='%23fbfaf8' text-anchor='middle'%3EDJ%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -162,6 +162,12 @@ section{padding:96px 0;scroll-margin-top:72px}
 .role-meta .when{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;font-variant-numeric:tabular-nums}
 .role-meta .place{margin-top:8px;font-size:14px;color:var(--muted);line-height:1.5}
 .role-body .org{margin-top:8px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.role-body .lead{margin-top:16px;max-width:37rem;color:var(--body)}
+.role-body .sub{
+  margin-top:32px;padding-top:16px;border-top:1px solid var(--rule);max-width:37rem;
+  font-family:var(--serif);font-size:17px;font-weight:600;color:var(--ink);line-height:1.4;
+}
+.role-body .sub .tag{display:block;margin-top:4px;font-family:var(--mono);font-size:11px;font-weight:400;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .role-body ul{margin-top:16px;list-style:none;max-width:37rem}
 .role-body li{position:relative;padding-left:24px;margin-bottom:12px;color:var(--body)}
 .role-body li::before{content:"";position:absolute;left:0;top:.72em;width:10px;height:1px;background:var(--rule-2)}
@@ -182,9 +188,10 @@ section{padding:96px 0;scroll-margin-top:72px}
 @media(max-width:820px){.cap{grid-template-columns:1fr;gap:12px}}
 .cap h3{font-size:17px;font-weight:600}
 .cap .terms{color:var(--muted);line-height:1.8;max-width:37rem}
-.cap .terms span{white-space:nowrap}
-.cap .terms span:not(:last-child)::after{content:" · ";color:var(--rule-2);white-space:normal}
+.cap .terms span{display:inline-block;max-width:100%}
+.cap .terms span:not(:last-child)::after{content:"·";color:var(--rule-2);margin:0 .5em 0 .4em}
 .cap .terms .key{color:var(--ink);font-weight:500}
+.cap .terms .capnote{margin-top:8px;font-size:14px;line-height:1.6;color:var(--muted)}
 
 /* ---------------- education ---------------- */
 .edu-row{display:grid;grid-template-columns:var(--rail) 1fr;gap:40px;padding:24px 0;border-bottom:1px solid var(--rule);align-items:baseline}
@@ -241,7 +248,7 @@ footer{border-top:1px solid var(--rule);padding:24px 0 40px}
       <a href="#contact">Contact</a>
     </nav>
     <a class="act solid" href="Devalla_Jaya_Chandra_Resume.pdf" download>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
       Résumé
     </a>
   </div>
@@ -256,7 +263,7 @@ footer{border-top:1px solid var(--rule);padding:24px 0 40px}
       </div>
       <dl>
         <dt>Current</dt>
-        <dd>Senior Business Analyst, Washington Gas, an AltaGas company</dd>
+        <dd>Senior Project Manager, Washington Gas / AltaGas — Springfield, Virginia, on-site</dd>
         <dt>Based in</dt>
         <dd>Herndon, Virginia</dd>
       </dl>
@@ -265,19 +272,20 @@ footer{border-top:1px solid var(--rule);padding:24px 0 40px}
     <div>
       <div class="standfirst rise">
         <span class="bar"></span>
-        <span class="label">Senior Business Analysis</span>
+        <span class="label">Senior Project Manager · Enterprise Technology &amp; AI Programs</span>
       </div>
-      <h1 class="rise"><span class="given">Devalla</span><span class="family">Jaya Chandra</span></h1>
-      <p class="role rise">Requirements and delivery on enterprise IT programmes.</p>
-      <p class="intro rise">I am the senior business analyst on the ITAM and ServiceNow Foundations programme at Washington Gas, working across three operating entities, and I coordinate a cybersecurity programme of roughly four million dollars.</p>
-      <p class="intro rise">I write the BRDs, RTMs, FSDs and UAT documentation engineering builds from, and I stay accountable through delivery. Energy utilities, insurance, financial services and enterprise software, with the analysis done in Python, SQL and statistical modelling when a decision needs numbers behind it.</p>
-      <p class="previously rise">Previously <b>MetLife</b> · <b>Tata Capital</b> · <b>Vivma Software</b></p>
+      <h1 class="rise"><span class="given">Devalla</span> <span class="family">Jaya Chandra</span></h1>
+      <p class="role rise">Enterprise technology and AI programmes, delivered end to end.</p>
+      <p class="intro rise">I am a senior project manager with more than seven years delivering enterprise technology programmes across utilities, financial services, insurance and healthcare. I currently lead two concurrent programmes worth $24M at Washington Gas / AltaGas, a CSO-sponsored cybersecurity AI programme and a disaster recovery programme, after delivering a $1.4M ServiceNow ITAM transformation at Genworth.</p>
+      <p class="intro rise">I own delivery end to end: charters, integrated plans, RAID logs, dependencies, scope and change control, vendor management and executive reporting, with a record of protecting gates and go-live dates under pressure. I also work hands-on with AI, defining AI-agent governance frameworks, running multi-vendor AI security evaluations and POCs, and building LLM automation with Claude (API and Claude Code CLI) for reporting and analysis workflows.</p>
+      <p class="previously rise">Previously <b>Genworth</b> · <b>Optima Financial Services</b> · <b>Virtual Infotech Solution</b></p>
       <div class="hero-acts rise">
         <a class="act solid" href="Devalla_Jaya_Chandra_Resume.pdf" download>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
           Download résumé (PDF)
         </a>
-        <a class="act" href="mailto:Djayachandra1995@gmail.com">Email Jaya Chandra</a>
+        <a class="act" href="Devalla_Jaya_Chandra_Resume.docx" download>Résumé (Word)</a>
+        <a class="act" href="mailto:jayachandra@myhotmail.net">Email Jaya Chandra</a>
         <a class="act" href="https://www.linkedin.com/in/j-devalla-business-analyst/" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </div>
@@ -297,29 +305,44 @@ footer{border-top:1px solid var(--rule);padding:24px 0 40px}
     </div>
     <div class="record">
       <div class="record-row rise">
-        <div class="fig">84%</div>
-        <div class="desc">Citrix entitlement estate rationalised — 375 groups reduced to 60 valid groups.
-          <span class="src">COR47 ITAM · Washington Gas</span></div>
+        <div class="fig">$24M</div>
+        <div class="desc">Combined value of two concurrent enterprise technology programmes led as senior project manager: a CSO-sponsored cybersecurity AI programme and a disaster recovery programme.
+          <span class="src">Washington Gas / AltaGas</span></div>
       </div>
       <div class="record-row rise">
-        <div class="fig">$4MM+</div>
-        <div class="desc">Cyber AI Optimization Program coordinated across four workstreams.
-          <span class="src">Washington Gas</span></div>
+        <div class="fig">$1.4M</div>
+        <div class="desc">ServiceNow ITAM transformation across ITOM/CMDB, Service Catalog and HR Service Delivery; owned every Phase 2 gate deliverable required to enter build.
+          <span class="src">ITAM ServiceNow Foundations · Genworth</span></div>
       </div>
       <div class="record-row rise">
-        <div class="fig">70%</div>
-        <div class="desc">Manual reporting effort eliminated through Power BI, SQL and Python dashboards.
-          <span class="src">Tata Capital</span></div>
+        <div class="fig">$4M</div>
+        <div class="desc">CSO-sponsored cybersecurity AI programme across four workstreams; led a four-vendor AI security evaluation to a phased two-vendor recommendation, with CSO approval secured for Phase 1.
+          <span class="src">Cyber AI Optimization · Washington Gas / AltaGas</span></div>
+      </div>
+      <div class="record-row rise">
+        <div class="fig">$20M</div>
+        <div class="desc">Three-year capital disaster recovery programme spanning WGL, SEMCO and ALA, led from concept through executive visioning to Gate 1 preparation.
+          <span class="src">WF273 DR Enhancement · Washington Gas / AltaGas</span></div>
+      </div>
+      <div class="record-row rise">
+        <div class="fig">144</div>
+        <div class="desc">Stakeholder requirements consolidated into a single weighted vendor scorecard with full source traceability.
+          <span class="src">Cyber AI Optimization · Washington Gas / AltaGas</span></div>
+      </div>
+      <div class="record-row rise">
+        <div class="fig">83</div>
+        <div class="desc">Requirements in a SOX-auditable traceability matrix, versioned v1.0 to v1.5 and traced from design gate through UAT to transition to operations.
+          <span class="src">ITAM ServiceNow Foundations · Genworth</span></div>
+      </div>
+      <div class="record-row rise">
+        <div class="fig">165+</div>
+        <div class="desc">Requirements kept traceable through configuration and testing across 15+ asset-management processes.
+          <span class="src">Enterprise Asset Management &amp; AI Automation Readiness · Genworth</span></div>
       </div>
       <div class="record-row rise">
         <div class="fig">25%</div>
-        <div class="desc">Improvement in quarterly revenue forecasting accuracy, alongside a 60% cut in manual reporting time.
-          <span class="src">MetLife</span></div>
-      </div>
-      <div class="record-row rise">
-        <div class="fig">20%</div>
-        <div class="desc">Increase in portfolio returns, contributed through Bloomberg Terminal market trend analysis.
-          <span class="src">Tata Capital</span></div>
+        <div class="desc">Reduction in manual reporting effort through workflow automation on a finance operations modernisation.
+          <span class="src">Financial Operations Process Modernization · Optima Financial Services</span></div>
       </div>
     </div>
   </div>
@@ -329,7 +352,7 @@ footer{border-top:1px solid var(--rule);padding:24px 0 40px}
   <div class="wrap">
     <div class="sec-head">
       <span class="label rise"><span class="num">02</span> &nbsp;Programmes</span>
-      <div><h2 class="rise">Three programmes at Washington Gas, and one before.</h2></div>
+      <div><h2 class="rise">Two programmes at Washington Gas / AltaGas, and four before.</h2></div>
     </div>
 
     <div class="rows">
@@ -337,44 +360,66 @@ footer{border-top:1px solid var(--rule);padding:24px 0 40px}
       <article class="prog rise">
         <div>
           <div class="when">Jan 2026 — Present</div>
-          <div class="client">Washington Gas</div>
-        </div>
-        <div>
-          <h3>COR47 — ITAM &amp; ServiceNow Foundations</h3>
-          <p>Enterprise ITAM transformation replacing a monolithic access-request system with rationalised ServiceNow catalog forms. Rationalised 375 Citrix groups to 60, an 84% reduction, and delivered three Sprint 1 forms including the programme's most complex: three modules, 22 fields, six fulfilment tasks.</p>
-        </div>
-      </article>
-
-      <article class="prog rise">
-        <div>
-          <div class="when">Jan 2026 — Present</div>
-          <div class="client">Washington Gas</div>
-        </div>
-        <div>
-          <h3>COR158 — Disaster Recovery Enhancement</h3>
-          <p>Led BA delivery on a disaster-recovery maturity uplift targeting a five-day RTO baseline. Authored the project charter, ran gap analysis against AltaGas DR Plan v2.6, and supported a three-year investment roadmap.</p>
-        </div>
-      </article>
-
-      <article class="prog rise">
-        <div>
-          <div class="when">Jan 2026 — Present</div>
-          <div class="client">Washington Gas · ~$4MM</div>
+          <div class="client">Washington Gas / AltaGas · $4M</div>
         </div>
         <div>
           <h3>Cyber AI Optimization Program</h3>
-          <p>Coordinated four cybersecurity workstreams: AI detection and response, SOC modernisation, secure development proof of concept, and end user protection. Ran vendor evaluations across CrowdStrike, Microsoft, Cisco and Rubrik for CSO-level investment decisions.</p>
+          <p>Day-to-day execution and governance of a CSO-sponsored cybersecurity AI programme across four workstreams: Vulnerability Intelligence, AI Security Governance, Secure Development and End User Protection. Led a four-vendor AI security evaluation (CrowdStrike, Microsoft, Cisco, Rubrik) to a phased two-vendor recommendation, defined the Microsoft Agent 365 AI-agent governance framework, and authored the trial evaluation framework adopted as the procurement decision gate for the Qualys TruRisk POC.</p>
         </div>
       </article>
 
       <article class="prog rise">
         <div>
-          <div class="when">Mar 2023 — Aug 2023</div>
-          <div class="client">T-Mobile</div>
+          <div class="when">Jan 2026 — Present</div>
+          <div class="client">Washington Gas / AltaGas · $20M, 3-year</div>
         </div>
         <div>
-          <h3>Customer Churn Prediction Model</h3>
-          <p>Built machine learning models — logistic regression, decision trees, random forest and XGBoost — forecasting customer churn. Integrated results into CRM and created Tableau dashboards for leadership decision-making.</p>
+          <h3>WF273 — Disaster Recovery Enhancement</h3>
+          <p>Initiation and scoping of a $20M, three-year capital disaster recovery programme spanning all AltaGas business units (WGL, SEMCO, ALA), from concept through an executive visioning workshop to Gate 1 preparation. Authored the project charter and the executive Visioning and Scoping deck, ran a 16-question current-state validation framework, and shaped the three-year DR maturity roadmap against ISO 22301 with NIST alignment.</p>
+        </div>
+      </article>
+
+      <article class="prog rise">
+        <div>
+          <div class="when">Mar 2025 — Dec 2025</div>
+          <div class="client">Genworth · $1.4M</div>
+        </div>
+        <div>
+          <h3>ITAM ServiceNow Foundations</h3>
+          <p>Client-side delivery of a $1.4M ServiceNow transformation across three workstreams (ITOM/CMDB, Service Catalog, HR Service Delivery), partnering with implementation vendor NewRocket. Authored the BRD (26 business requirements, approved by a six-director board), owned the SOX-auditable 83-requirement RTM, designed the ServiceNow-to-Azure DevOps test operating model, and locked scope to remediate a 1.7M-record CMDB and rationalise a 400+ item service catalog.</p>
+        </div>
+      </article>
+
+      <article class="prog rise">
+        <div>
+          <div class="when">Mar 2025 — Dec 2025</div>
+          <div class="client">Genworth</div>
+        </div>
+        <div>
+          <h3>Enterprise Asset Management &amp; AI Automation Readiness</h3>
+          <p>Discovery and planning across 15+ asset-management processes for data-quality improvement and AI-assisted automation readiness. Mapped current- and future-state workflows, identified 28 process, data and control gaps, maintained traceability for 165+ requirements through configuration and testing, and converted AI-assisted duplicate detection and data-quality monitoring concepts into governed use cases, epics and user stories.</p>
+        </div>
+      </article>
+
+      <article class="prog rise">
+        <div>
+          <div class="when">Jun 2021 — Nov 2023</div>
+          <div class="client">Optima Financial Services</div>
+        </div>
+        <div>
+          <h3>Financial Operations Process Modernization</h3>
+          <p>Converted manual and spreadsheet-based finance activities into documented business rules, requirements and future-state workflows with defined approvals, controls and exceptions. Managed the Azure DevOps backlog and weekly status reporting across planned releases, and helped reduce manual reporting effort by 25% through workflow automation.</p>
+        </div>
+      </article>
+
+      <article class="prog rise">
+        <div>
+          <div class="when">Jan 2018 — May 2021</div>
+          <div class="client">Virtual Infotech Solution</div>
+        </div>
+        <div>
+          <h3>Hospital Operations &amp; Patient Services Application</h3>
+          <p>Primary BA for a hospital workflow digitisation initiative covering patient registration, prescriptions and pharmacy coordination, from discovery through launch. Mapped the patient journey with administrators, front-desk teams, doctors and pharmacy staff, planned UAT, triaged defects and supported training and launch.</p>
         </div>
       </article>
 
@@ -394,54 +439,88 @@ footer{border-top:1px solid var(--rule);padding:24px 0 40px}
       <article class="role-entry rise">
         <div class="role-meta">
           <div class="when">Jan 2026 — Present</div>
-          <div class="place">ITAM · ServiceNow · Disaster recovery · Cybersecurity</div>
+          <div class="place">Utilities · Enterprise technology &amp; cybersecurity · Full-time, on-site</div>
+        </div>
+        <div class="role-body">
+          <h3>Senior Project Manager</h3>
+          <div class="org">Washington Gas / AltaGas — Springfield, Virginia</div>
+          <p class="lead">Senior project manager across two enterprise technology programmes with a combined value of <strong>$24M</strong>: a $4M CSO-sponsored cybersecurity AI programme and a $20M disaster recovery programme. Owned integrated plans, RAID, dependencies, vendor coordination, agile delivery, testing readiness and executive reporting across Washington Gas, SEMCO and AltaGas, translating business priorities into actionable requirements and delivery decisions.</p>
+
+          <div class="sub">Cyber AI Optimization Program <span class="tag">$4M CSO-sponsored cybersecurity AI programme</span></div>
+          <ul>
+            <li>Directed day-to-day execution and governance of a <strong>$4M CSO-sponsored cybersecurity AI programme</strong> spanning four concurrent workstreams (Vulnerability Intelligence, AI Security Governance, Secure Development, End User Protection), coordinating approximately 15 stakeholders across security engineering, SOC, procurement, desktop engineering and external vendors.</li>
+            <li>Led a structured four-vendor AI security evaluation (<strong>CrowdStrike, Microsoft, Cisco, Rubrik</strong>) from criteria definition through live technical validation to a phased two-vendor recommendation, with CrowdStrike AIDR selected for user and shadow AI protection and Microsoft Agent 365 for AI-agent governance; secured CSO approval for Phase 1 and fed the September board package.</li>
+            <li>Defined the <strong>Microsoft Agent 365 governance framework</strong> for AI-agent inventory, ownership, identity, permissions, data access, human oversight, monitoring, auditability and lifecycle controls; converted security, integration, data-residency and vendor-roadmap dependencies into a governed backlog and implementation decision points.</li>
+            <li>Translated CSO and compliance priorities into Cyber AI epics, user stories, acceptance criteria, vendor scorecards and POC evidence plans, and converted every major session into same-day decisions, actions and tracker updates to keep vendors and internal teams moving between sessions.</li>
+            <li>Managed the AI secure-development tooling evaluation (<strong>Claude AI Security vs. GitHub Advanced Security</strong>) on a production Azure DevOps repository: defined six evaluation criteria spanning severity prioritisation, line-level fix guidance, CI/CD pipeline blocking and secrets detection, and flagged three material capability gaps from OWASP-mapped vendor questionnaires (21 requirements per vendor) for the final validation sessions.</li>
+            <li>Authored the eight-criteria trial evaluation framework formally adopted as the procurement decision gate for the 30-day <strong>Qualys TruRisk POC</strong>, defining success criteria with test scenarios, evidence tracking and a measurement baseline tied to the documented 2 to 3 week patch cycle.</li>
+            <li>Identified one week before the POC deadline that the vendor trial clock was already running and replanned immediately: descoped non-essential services, rebaselined to Week 1 setup plus Windows patching, and drove three blocking prerequisites (patch vendor URL allowlisting, agent profile enablement and maintenance window approvals) to named owners across network, endpoint and infrastructure teams.</li>
+            <li>Delivered full four-workstream programme status directly to the CSO, ran executive syncs solo when programme leadership was unavailable, and established a mid-week executive check-in cadence tracking six CSO priorities with owners and dates.</li>
+            <li>Owned the programme's governance backbone as the single source of truth on SharePoint: a five-tab requirements tracker with executive summary, vendor scorecards and POC plans, plus a RAID log maintained through v1.3 with 22 risks, 55 actions, 12 issues and 39 decisions.</li>
+            <li>Consolidated <strong>144 stakeholder requirements</strong> into a single weighted vendor scorecard with full source traceability, and validated the CSO's top requirement by running identical machine-speed automated response scenarios live across both finalist vendors to produce an on-record capability comparison.</li>
+            <li>Planned and executed programme transition: onboarded the incoming PM with structured briefings and open-question packs for vendor sessions, and delivered the full handover and knowledge transfer package for programme continuity.</li>
+          </ul>
+
+          <div class="sub">WF273 Disaster Recovery Enhancement <span class="tag">$20M, 3-year capital programme</span></div>
+          <ul>
+            <li>Led initiation and scoping of a <strong>$20M, three-year capital disaster recovery programme</strong> spanning all AltaGas business units (WGL, SEMCO, ALA), from concept through an executive visioning workshop to Gate 1 preparation.</li>
+            <li>Authored the project charter and built the 14-slide executive Visioning and Scoping deck for the Program Leadership Team, translating technical recovery gaps into a leadership-level problem statement and investment case.</li>
+            <li>Designed and ran a 16-question current-state validation framework covering scope, DR ownership, RTO/RPO, criticality and risk; cleared 13 flagged unverified claims and materially corrected the programme's baseline assumptions through evidence-based discovery.</li>
+            <li>Shaped the three-year DR maturity roadmap with technical leadership, benchmarking against <strong>ISO 22301</strong> with NIST alignment for cyber and network, phasing a C4 to C1 criticality uplift, and rebaselining application criticality from management judgment to analytical criteria.</li>
+            <li>Managed a landscape of 20+ stakeholders including the sponsor, Program Leadership Team, CISO, portfolio manager and DR and BIA owners; planned, scripted and ran alignment and validation sessions end to end, and coordinated cross-programme dependencies with the parallel IRE programme by mapping its BIA, MVC and Rubrik outputs into discovery to eliminate duplicate work.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="role-entry rise">
+        <div class="role-meta">
+          <div class="when">Mar 2025 — Dec 2025</div>
+          <div class="place">Financial services · Enterprise IT · Full-time, remote</div>
+        </div>
+        <div class="role-body">
+          <h3>Project Manager</h3>
+          <div class="org">Genworth — Florida, USA</div>
+
+          <div class="sub">ITAM ServiceNow Foundations <span class="tag">$1.4M ServiceNow transformation</span></div>
+          <ul>
+            <li>Drove client-side delivery of a <strong>$1.4M ServiceNow transformation</strong> across three workstreams (ITOM/CMDB, Service Catalog, HR Service Delivery), partnering with implementation vendor NewRocket and owning every Phase 2 gate deliverable (BRD, RTM and Test Plans) required to enter build.</li>
+            <li>Authored the Business Requirements Document end to end, covering current and future state, <strong>26 business requirements</strong>, use cases, NFRs, security and data classification requirements and a formal out-of-scope register, and steered it through a six-director approval board spanning IT, Cyber, HR and PMO.</li>
+            <li>Built and owned the SOX-auditable Requirements Traceability Matrix of <strong>83 requirements</strong>, versioned from v1.0 to v1.5 and traced from design gate through UAT to transition to operations, mapped sprint by sprint to ServiceNow stories and Azure DevOps test cases; embedded SOX controls (GCC.PD.01-04) into testing, data migration, defect management and training plans.</li>
+            <li>Ran programme governance through the RAID log covering <strong>130+ actions</strong>, 58 logged decisions and live risk and issue registers; chased cross-functional owners and escalated delivery blockers such as an unsigned vendor SOW, unstaffed roles and undefined integrations to protect Gate 2 and go-live dates.</li>
+            <li>Designed the end-to-end test operating model bridging ServiceNow and Azure DevOps, including a 10-step sprint workflow, a 7-role RACI and field-level data mapping; iterated it through 21 tracked review comments to sign-off and set the quality standard the vendor was held to.</li>
+            <li>Built the three workstream Test Plans and coordinated sprint-end UAT with business testers; authored and QA'd test cases in ADO, enforced evidence standards and drove defect triage through to vendor resolution in subsequent sprints.</li>
+            <li>Managed vendor delivery quality with NewRocket across the full agile cycle in ServiceNow Agile Board and Azure DevOps: reviewed epics and user stories, enforced testable Given/When/Then acceptance criteria as a quality gate before development, sent insufficient stories back for rework and held the contractual boundary that kept UAT client-side.</li>
+            <li>Led requirements discovery with senior stakeholders (ITSM Platform Owner, infrastructure tower owners and business owners) to lock scope for remediating a <strong>1.7M-record CMDB</strong> and rationalising a 400+ item service catalog handling 43K requests per year, including consolidation of 297 PeopleSoft entitlements into 49 role-based personas across 17 modules.</li>
+          </ul>
+
+          <div class="sub">Enterprise Asset Management &amp; AI Automation Readiness</div>
+          <ul>
+            <li>Led discovery and planning across <strong>15+ asset-management processes</strong>, facilitating workshops, defining business and functional requirements and coordinating priorities, dependencies and milestones for data-quality improvement and AI-assisted automation readiness.</li>
+            <li>Mapped current- and future-state workflows and identified <strong>28 process, data and control gaps</strong> across discovery, classification, reconciliation, duplicate handling and retirement; used the findings to define automation opportunities, data prerequisites and phased backlog priorities.</li>
+            <li>Maintained traceability for <strong>165+ requirements</strong> through configuration and testing, coordinating UAT scenarios, acceptance evidence, clarifications, defects and decisions across business, technical and vendor teams while keeping release risks and readiness visible to stakeholders.</li>
+            <li>Converted AI-assisted duplicate detection, exception prioritisation and data-quality monitoring concepts into governed use cases, epics, user stories and acceptance criteria covering data inputs, confidence-based exceptions, human review, override paths and auditability.</li>
+            <li>Managed delivery visibility across four workstreams through milestone plans, RAID reviews, status reporting and implementation handoff; organised AI evaluation scenarios and decision evidence so business owners could assess value, feasibility, controls and operational readiness before adoption.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="role-entry rise">
+        <div class="role-meta">
+          <div class="when">Jun 2021 — Nov 2023</div>
+          <div class="place">Financial services · Full-time</div>
         </div>
         <div class="role-body">
           <h3>Senior Business Analyst</h3>
-          <div class="org">Washington Gas, an AltaGas company — remote</div>
+          <div class="org">Optima Financial Services — India</div>
+          <div class="sub">Financial Operations Process Modernization</div>
           <ul>
-            <li>Named senior BA on the <strong>COR47 ITAM &amp; ServiceNow Foundations</strong> programme — owned the RTM across ITOM/CMDB, ServiceNow catalog rationalisation and HR Service Delivery workstreams spanning three entities (ALA, WGL, SEMCO).</li>
-            <li>Rationalised a Citrix entitlement estate from <strong>375 groups to 60</strong> valid groups, an <strong>84% reduction</strong>; delivered the first three Sprint 1 catalog forms to vendor build on schedule.</li>
-            <li>Authored the BRD, RTM, test plans and the ServiceNow-to-ADO testing process document; maintained the programme RAID log in Azure DevOps and SharePoint.</li>
-            <li>Led <strong>COR158 DR Enhancement</strong> BA delivery — authored the project charter, ran current-state gap analysis against AltaGas DR Plan v2.6, and supported a three-year DR investment roadmap targeting a five-day RTO baseline.</li>
-            <li>Coordinated the <strong>Cyber AI Optimization Program (~$4MM)</strong> across four workstreams: AI detection and response, SOC modernisation, secure development proof of concept, and end user protection.</li>
-            <li>Ran structured vendor evaluation — scored <strong>CrowdStrike, Microsoft, Cisco and Rubrik</strong> against defined requirements for CSO-level security investment decisions.</li>
-          </ul>
-        </div>
-      </article>
-
-      <article class="role-entry rise">
-        <div class="role-meta">
-          <div class="when">Jan 2025 — Dec 2025</div>
-          <div class="place">Insurance · BI and risk modelling</div>
-        </div>
-        <div class="role-body">
-          <h3>Business Analyst</h3>
-          <div class="org">MetLife — remote</div>
-          <ul>
-            <li>Facilitated cross-functional stakeholder workshops; produced comprehensive BRDs, FRSs and use case scenarios for enterprise technology initiatives.</li>
-            <li>Designed <strong>Tableau KPI dashboards</strong> across business units — cutting manual reporting time by <strong>60%</strong> and improving quarterly revenue forecasting accuracy by <strong>25%</strong>.</li>
-            <li>Performed statistical trend and variance analysis on customer churn data, enabling targeted retention campaigns that reduced churn <strong>18% year on year</strong>.</li>
-            <li>Established a credit risk model using logistic regression and survival analysis, improving loan default prediction accuracy and strengthening risk mitigation strategy.</li>
-            <li>Delivered <strong>SAP Fiori</strong> and <strong>SAP Analytics Cloud</strong> dashboards for P&amp;L, cash flow and budget-versus-actual analysis; facilitated UAT with detailed test cases and documentation.</li>
-          </ul>
-        </div>
-      </article>
-
-      <article class="role-entry rise">
-        <div class="role-meta">
-          <div class="when">Jun 2021 — Dec 2023</div>
-          <div class="place">Financial services · Forecasting</div>
-        </div>
-        <div class="role-body">
-          <h3>Business Analyst</h3>
-          <div class="org">Tata Capital — India</div>
-          <ul>
-            <li>Led end-to-end business transformation projects from requirements gathering through deployment, delivering measurable efficiency gains and cost savings.</li>
-            <li>Built <strong>Power BI</strong> dashboards with SQL and Python (pandas) for real-time KPI monitoring, eliminating <strong>70%</strong> of manual reporting effort across business units.</li>
-            <li>Applied <strong>ARIMA</strong> and exponential smoothing models for credit loss forecasting, improving projection accuracy by <strong>18%</strong> and enabling more precise reserve allocation.</li>
-            <li>Used the <strong>Bloomberg Terminal</strong> for market trend analysis, contributing to a <strong>20% increase in portfolio returns</strong> through data-driven investment strategy.</li>
-            <li>Reduced financial reporting errors by <strong>15%</strong> through GAAP-compliant review of balance sheets, journal entries and financial statements; directed Azure DevOps automation reducing manual effort by 25%.</li>
+            <li>Converted manual and spreadsheet-based finance activities into documented business rules, requirements and future-state workflows with defined approvals, controls, exceptions and reporting needs.</li>
+            <li>Facilitated workshops with finance, operations and technology teams and translated decisions into process maps, backlog items, acceptance criteria and UAT scenarios.</li>
+            <li>Managed <strong>Azure DevOps</strong> backlog items, delivery dependencies and weekly status reporting across planned releases and helped reduce manual reporting effort by <strong>25%</strong> through workflow automation.</li>
+            <li>Supported budget and vendor-spend reviews by investigating actual-versus-forecast variances and preparing concise management summaries for prioritisation discussions.</li>
+            <li>Created executive reports, Visio process flows and BRDs with integration specifications to support technical estimation, requirements review and implementation planning.</li>
+            <li>Performed data analysis and reconciliation with <strong>SQL and advanced Excel</strong> to validate reports against source systems, investigate discrepancies and confirm business rules were applied correctly in each release.</li>
+            <li>Supported UAT cycles and release readiness by preparing test data, walking business users through updated workflows, logging feedback and defects, and keeping process documentation and training materials current.</li>
           </ul>
         </div>
       </article>
@@ -449,16 +528,18 @@ footer{border-top:1px solid var(--rule);padding:24px 0 40px}
       <article class="role-entry rise">
         <div class="role-meta">
           <div class="when">Jan 2018 — May 2021</div>
-          <div class="place">Enterprise software · Healthcare</div>
+          <div class="place">Healthcare technology · Full-time</div>
         </div>
         <div class="role-body">
-          <h3>Junior Business Analyst</h3>
-          <div class="org">Vivma Software — India</div>
+          <h3>Business Analyst</h3>
+          <div class="org">Virtual Infotech Solution — India</div>
+          <div class="sub">Hospital Operations &amp; Patient Services Application</div>
           <ul>
-            <li>Led stakeholder sessions to gather requirements; developed BRDs, product backlog documentation and process flow diagrams across healthcare and enterprise software projects.</li>
-            <li>Automated financial analysis using <strong>advanced Excel</strong> (Power Query, VBA, macros) and SAP BPC-integrated financial planning models, improving planning accuracy by <strong>25%</strong>.</li>
-            <li>Designed risk scoring models (logistic regression, decision trees, random forest) reducing customer default rates through targeted, data-driven interventions.</li>
-            <li>Automated KPI dashboards via <strong>Power BI and DAX</strong>, driving corrective actions that boosted regional sales <strong>15% in two quarters</strong>; achieved 30% AR/AP improvement via QuickBooks implementation.</li>
+            <li>Served as the primary BA for a <strong>hospital workflow digitisation initiative</strong> covering patient registration, prescriptions and pharmacy coordination from discovery through launch.</li>
+            <li>Worked with hospital administrators, front-desk teams, doctors and pharmacy staff to map the patient journey and convert operational pain points into requirements, user stories and process diagrams.</li>
+            <li>Coordinated backlog readiness, requirements clarification and delivery dependencies, then planned UAT, triaged defects and supported training and launch activities with hospital users.</li>
+            <li>Produced wireframes, user guides and change-support materials to help users understand new workflows and provide structured feedback after launch.</li>
+            <li>Documented functional specifications and maintained the requirements register across releases, tracking clarifications and change requests between hospital staff and the development team.</li>
           </ul>
         </div>
       </article>
@@ -472,52 +553,67 @@ footer{border-top:1px solid var(--rule);padding:24px 0 40px}
     <div class="sec-head">
       <span class="label rise"><span class="num">04</span> &nbsp;Capabilities</span>
       <div>
-        <h2 class="rise">Six areas, ranked.</h2>
-        <p class="deck rise">Emphasis marks what I'm in weekly.</p>
+        <h2 class="rise">Eight areas.</h2>
+        <p class="deck rise">Core and technical skills, as listed on the résumé. Emphasis marks what I lead with.</p>
       </div>
     </div>
 
     <div class="rows">
 
       <div class="cap rise">
-        <h3>Requirements &amp; delivery</h3>
+        <h3>Project management</h3>
         <div class="terms">
-          <span class="key">BRDs</span><span class="key">RTMs</span><span class="key">UAT test cases</span><span>FSDs</span><span>Use cases</span><span>Process maps</span><span>Wireframes</span><span>Agile/Scrum</span><span>Waterfall</span><span>Sprint planning</span><span>RAID management</span><span>Change management</span>
+          <span class="key">Charters</span><span class="key">Work plans &amp; schedules</span><span class="key">RAID logs</span><span class="key">Executive reporting</span><span>Milestones</span><span>Dependencies</span><span>Decision tracking</span><span>Vendor coordination</span><span>Scope &amp; change control</span>
         </div>
       </div>
 
       <div class="cap rise">
-        <h3>Platforms &amp; enterprise tools</h3>
+        <h3>AI &amp; GenAI</h3>
         <div class="terms">
-          <span class="key">ServiceNow</span><span class="key">Azure DevOps</span><span class="key">Jira</span><span>Confluence</span><span>MS Visio</span><span>Anaplan</span><span>Bloomberg Terminal</span><span>QuickBooks</span>
+          <span class="key">AI governance frameworks</span><span class="key">AI vendor evaluation &amp; POC design</span><span class="key">Claude (API and Claude Code CLI)</span><span>LLM workflow automation</span><span>Prompt engineering</span><span>Human-in-the-loop review</span><span>Auditability controls</span><span>AI POC evaluation</span><span>variance_narrator.py</span>
+          <p class="capnote">Built variance_narrator.py, a Python and Claude API tool that turns programme and financial variance data into plain-language executive commentary.</p>
         </div>
       </div>
 
       <div class="cap rise">
-        <h3>Business intelligence</h3>
+        <h3>Stakeholder &amp; delivery leadership</h3>
         <div class="terms">
-          <span class="key">Tableau</span><span class="key">Power BI</span><span>SAP Fiori</span><span>SAP Analytics Cloud</span><span>Qlik</span><span>Google Analytics</span>
+          <span class="key">Cross-functional coordination</span><span class="key">Governance meetings</span><span>Scope &amp; change control</span><span>Issue escalation</span><span>Testing readiness</span><span>Implementation handover</span><span>Knowledge transfer</span>
         </div>
       </div>
 
       <div class="cap rise">
-        <h3>Data, programming &amp; cloud</h3>
+        <h3>Business analysis &amp; cybersecurity</h3>
         <div class="terms">
-          <span class="key">SQL</span><span class="key">Python (pandas)</span><span>scikit-learn</span><span>VBA</span><span>DAX</span><span>Snowflake</span><span>SQL Server</span><span>MySQL</span><span>SAP HANA</span><span>SAP BW</span><span>ETL processes</span><span>Azure Data Factory</span><span>Azure Logic Apps</span><span>Power Automate</span>
+          <span class="key">Requirements</span><span class="key">BRD / FSD</span><span class="key">RTM</span><span>Process mapping</span><span>Vendor evaluation</span><span>POC planning</span><span>Disaster recovery</span><span>UAT</span>
         </div>
       </div>
 
       <div class="cap rise">
-        <h3>Analytics &amp; financial modelling</h3>
+        <h3>Platforms &amp; tools</h3>
         <div class="terms">
-          <span class="key">Forecasting</span><span>Logistic regression</span><span>Decision trees</span><span>Random forest</span><span>XGBoost</span><span>ARIMA</span><span>SAS</span><span>R</span><span>Financial modelling</span><span>DCF</span><span>Credit risk</span><span>GAAP/IFRS</span><span>Monte Carlo</span><span>M&amp;A</span>
+          <span class="key">ServiceNow</span><span class="key">Azure DevOps</span><span class="key">SharePoint</span><span>ITAM</span><span>ITSM</span><span>HRSD</span><span>Service Catalog</span><span>CMDB</span><span>Discovery integrations</span><span>Request workflows</span><span>Case management</span><span>Jira</span><span>Confluence</span><span>Visio</span><span>Excel</span><span>Power BI</span><span>SQL</span><span>Microsoft Loop</span><span>Teams</span>
         </div>
       </div>
 
       <div class="cap rise">
-        <h3>Domain knowledge</h3>
+        <h3>Methods</h3>
         <div class="terms">
-          <span class="key">ITAM</span><span class="key">Energy utilities</span><span>Disaster recovery</span><span>Cybersecurity</span><span>Insurance</span><span>Fintech</span>
+          <span class="key">Agile / Scrum</span><span class="key">Hybrid delivery</span><span>Waterfall</span><span>Backlog refinement</span><span>UAT</span><span>Defect triage</span><span>Process mapping</span><span>Stakeholder workshops</span>
+        </div>
+      </div>
+
+      <div class="cap rise">
+        <h3>Documentation &amp; governance</h3>
+        <div class="terms">
+          <span class="key">BRD</span><span class="key">FSD</span><span class="key">RTM</span><span>User stories &amp; acceptance criteria</span><span>RAID &amp; decision logs</span><span>SOX ITGC controls</span><span>ISO 22301</span><span>NIST alignment</span><span>OWASP AI/LLM Top 10</span>
+        </div>
+      </div>
+
+      <div class="cap rise">
+        <h3>Data &amp; reporting</h3>
+        <div class="terms">
+          <span class="key">Advanced Excel</span><span class="key">Power BI</span><span>Tableau</span><span>SQL validation</span><span>Executive dashboards</span><span>Variance analysis</span><span>Management reporting</span>
         </div>
       </div>
 
@@ -533,14 +629,14 @@ footer{border-top:1px solid var(--rule);padding:24px 0 40px}
     </div>
     <div class="rows">
       <div class="edu-row rise">
-        <div class="yr">In progress</div>
+        <div class="yr">2025</div>
         <div>
-          <div class="deg">Master of Science, Business Analytics</div>
+          <div class="deg">M.S., Business Analytics</div>
           <div class="inst">Anderson University — South Carolina, USA</div>
         </div>
       </div>
       <div class="edu-row rise">
-        <div class="yr">Nov 2017</div>
+        <div class="yr">2017</div>
         <div>
           <div class="deg">Bachelor of Commerce</div>
           <div class="inst">St. Mary's College — Hyderabad, India</div>
@@ -555,19 +651,19 @@ footer{border-top:1px solid var(--rule);padding:24px 0 40px}
     <div class="sec-head">
       <span class="label rise"><span class="num">06</span> &nbsp;Contact</span>
       <div>
-        <h2 class="rise">Open to senior BA and product owner roles.</h2>
-        <p class="deck rise">Senior business analyst, product owner and ServiceNow BA positions. Email is the fastest route.</p>
+        <h2 class="rise">Open to senior project manager and programme roles.</h2>
+        <p class="deck rise">Senior project manager and programme manager positions on enterprise technology and AI programmes. Email is the fastest route.</p>
       </div>
     </div>
 
     <div class="contact-grid">
       <div class="cline rise">
         <div class="k">Email</div>
-        <div class="v"><a href="mailto:Djayachandra1995@gmail.com">Djayachandra1995@gmail.com</a></div>
+        <div class="v"><a href="mailto:jayachandra@myhotmail.net">jayachandra@myhotmail.net</a></div>
       </div>
       <div class="cline rise">
         <div class="k">Telephone</div>
-        <div class="v"><a href="tel:+16098560205">+1 (609) 856-0205</a></div>
+        <div class="v"><a href="tel:+13014535051">+1 (301) 453-5051</a></div>
       </div>
       <div class="cline rise">
         <div class="k">LinkedIn</div>
@@ -581,10 +677,11 @@ footer{border-top:1px solid var(--rule);padding:24px 0 40px}
 
     <div class="colophon-acts rise">
       <a class="act solid" href="Devalla_Jaya_Chandra_Resume.pdf" download>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
         Download résumé (PDF)
       </a>
-      <a class="act" href="mailto:Djayachandra1995@gmail.com">Email Jaya Chandra</a>
+      <a class="act" href="Devalla_Jaya_Chandra_Resume.docx" download>Résumé (Word)</a>
+      <a class="act" href="mailto:jayachandra@myhotmail.net">Email Jaya Chandra</a>
     </div>
   </div>
 </section>
@@ -594,7 +691,7 @@ footer{border-top:1px solid var(--rule);padding:24px 0 40px}
 <footer>
   <div class="wrap foot">
     <div>© <span id="yr">2026</span> Devalla Jaya Chandra</div>
-    <div>Senior Business Analyst — Herndon, Virginia</div>
+    <div>Senior Project Manager — Herndon, Virginia</div>
   </div>
 </footer>
 
